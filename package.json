@@ -1,0 +1,31 @@
+{
+  "name": "hapi-recall",
+  "version": "0.0.1",
+  "description": "Interpret route format for `hapi` and provide a way to construct a formatted route",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miloconway/hapi-recall.git"
+  },
+  "keywords": [
+    "hapi",
+    "call",
+    "router"
+  ],
+  "author": "Andy Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miloconway/hapi-recall/issues"
+  },
+  "homepage": "https://github.com/miloconway/hapi-recall",
+  "devDependencies": {
+    "lab": "^5.2.1",
+    "chai": "^1.10.0"
+  },
+  "dependencies": {
+    "call": "^2.0.1"
+  }
+}
