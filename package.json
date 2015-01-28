@@ -4,7 +4,8 @@
   "description": "Interpret route format for `hapi` and provide a way to construct a formatted route",
   "main": "index.js",
   "scripts": {
-    "test": "lab test/*.spec.js"
+    "test": "lab test/*.spec.js",
+    "lint": "jshint --exclude node_modules ."
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,8 @@
   "homepage": "https://github.com/miloconway/hapi-recall",
   "devDependencies": {
     "lab": "^5.2.1",
-    "chai": "^1.10.0"
+    "chai": "^1.10.0",
+    "jshint": "^2.6.0"
   },
   "dependencies": {
     "call": "^2.0.1"

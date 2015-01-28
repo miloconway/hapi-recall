@@ -1,3 +1,6 @@
+/*jslint node: true */
+'use strict';
+
 var call = require('call');
 var Router = call.Router;
 var RecallError = require('./lib/recall-error');
